@@ -1,7 +1,11 @@
-div{
+.banners{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    height: 250px;
+}
+
+.top{
+    height: 160px;
+    text-align: center;
 }
