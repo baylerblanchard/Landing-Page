@@ -12,3 +12,10 @@
     border-width: 2px;
     border-color: red;
 }
+
+.mid{
+    height: 500px;
+    text-align: solid;
+    border-width: 2px;
+    border-color: blue;
+}
