@@ -1,6 +1,13 @@
 html{
     background-color: rgb(235, 235, 235);
 }
+.logo{
+    display: flex;
+    justify-content: left;
+    height: 60px;
+    width: auto;
+    padding: 8px;
+}
 .banners{
     display: flex;
     flex-direction: column;
