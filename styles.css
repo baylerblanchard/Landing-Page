@@ -2,10 +2,16 @@ html{
     background-color: rgb(235, 235, 235);
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 ul{
     list-style-type: none;
     display: flex;
     gap: 10px;
+    padding-right: 10px;
 }
 
 .logo{
@@ -15,6 +21,7 @@ ul{
     width: auto;
     padding: 8px;
 }
+
 .banners{
     display: flex;
     flex-direction: column;
@@ -23,11 +30,13 @@ ul{
 }
 
 .top{
+    display: flex;
     height: 75px;
     text-align: center;
     border-style: solid;
     border-width: 2px;
     border-color: red;
+    justify-content: space-between;
 }
 
 .mid{
