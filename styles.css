@@ -17,12 +17,13 @@ ul{
     display: flex;
     gap: 10px;
     padding-right: 10px;
+    padding-top: 8px;
 }
 
 .logo{
     display: flex;
     justify-content: left;
-    height: 45px;
+    height: 55px;
     width: auto;
     padding: 8px;
 }
@@ -38,9 +39,7 @@ ul{
     display: flex;
     height: 75px;
     text-align: center;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
+    background-color: rgb(177, 213, 255);
     justify-content: space-between;
 }
 
