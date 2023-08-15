@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(235, 235, 235);
+    background-color: #1f2937;
 }
 
 body{
@@ -9,10 +9,12 @@ body{
 
 a{
   text-decoration: none;
-  color: black;
+  color: #1f2937;
 }
 
 ul{
+    font-weight: bold;
+    font-size: large;
     list-style-type: none;
     display: flex;
     gap: 10px;
@@ -48,7 +50,7 @@ ul{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    height: 100%;
+    height: 1000px;
     text-align: center;
 }
 
@@ -61,8 +63,8 @@ ul{
 }
 
 .box{
-    height: 500px;
-    width: 30%;
+    height: 100%;
+    width: 32%;
     background-color: rgb(177, 213, 255);
-    border-radius: 10px;
+    border-radius: 6px;
 }
