@@ -8,8 +8,10 @@ body{
 }
 
 a{
-  text-decoration: none;
-  color: #1f2937;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #1f2937;
 }
 
 ul{
@@ -23,15 +25,21 @@ ul{
 }
 
 .yt{
-    height: 65px;
+    display: flex;
+    height: 45px;
+    padding-top: 80px;
 }
 
 .x{
+    display: flex;
     height: 70px;
+    padding-top: 45px;
 }
 
 .tok{
+    display: flex;
     height: 100px;
+    padding-top: 30px;
 }
 
 .logo{
@@ -62,8 +70,7 @@ ul{
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    height: 1000px;
-    text-align: center;
+    height: 500px;
 }
 
 .bott{
