@@ -22,7 +22,14 @@ ul{
     padding-top: 8px;
 }
 
-.tik{
+.x{
+    align-items: center;
+    height: 20%;
+    width: auto;
+    padding-top: 10px;
+}
+
+.social{
     align-items: center;
     height: 25%;
     width: auto;
