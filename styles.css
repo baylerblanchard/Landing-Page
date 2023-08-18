@@ -1,5 +1,6 @@
 html{
     background-color: #1f2937;
+    height: 100%;
 }
 
 body{
@@ -79,11 +80,18 @@ ul{
     font-size: 8px;
     background-color: rgb(195, 195, 195);
     padding-top: 11px;
+    display: flex;
+    flex-direction: column;
 }
 
 .box{
     height: 100%;
-    width: 45%;
+    width: 25%;
     background-color: rgb(177, 213, 255);
     border-radius: 6px;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
