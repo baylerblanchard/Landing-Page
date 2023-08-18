@@ -22,6 +22,12 @@ ul{
     padding-top: 8px;
 }
 
+.tik{
+    align-items: center;
+    height: 25%;
+    width: auto;
+}
+
 .logo{
     display: flex;
     justify-content: left;
