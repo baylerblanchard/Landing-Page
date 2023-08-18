@@ -22,17 +22,19 @@ ul{
     padding-top: 8px;
 }
 
-.x{
+.yt{
     align-items: center;
-    height: 20%;
-    width: auto;
-    padding-top: 10px;
+    height: 65px;
 }
 
-.social{
+.x{
     align-items: center;
-    height: 25%;
-    width: auto;
+    height: 65px;
+}
+
+.tok{
+    align-items: center;
+    height: 65px;
 }
 
 .logo{
