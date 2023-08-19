@@ -12,17 +12,15 @@ a{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: #1f2937;
+    color: white;
 }
 
 ul{
     font-weight: bold;
     font-size: large;
     list-style-type: none;
-    display: flex;
-    gap: 10px;
-    padding-right: 10px;
-    padding-top: 8px;
+    padding-right: 21px;
+    padding-top: 16px;
 }
 
 .yt{
@@ -45,7 +43,7 @@ ul{
 
 .logo{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     height: 55px;
     width: auto;
     padding: 8px;
@@ -63,7 +61,7 @@ ul{
     height: 75px;
     text-align: center;
     background-color: rgb(177, 213, 255);
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .mid{    
@@ -90,6 +88,7 @@ ul{
     background-color: rgb(177, 213, 255);
     border-radius: 6px;
 }
+
 body{
     min-height: 100%;
     display: flex;
